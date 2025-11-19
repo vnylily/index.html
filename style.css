@@ -1,0 +1,161 @@
+.box {
+
+        max-width: 1000px;
+        margin: 50px auto;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 220px minmax(1fr) auto;
+        grid-template-rows: 80px 400px 130px;
+        background-color: #d2d5ff;
+        background-image: url(backgroundimg.jpg);
+        padding: 0px;
+        padding-right: 0px;
+
+}
+
+
+
+
+
+header, nav, main, footer {
+        margin: 0;
+        
+} 
+
+header {
+
+        grid-row: 1/2;
+        grid-column: 1/3;
+        background-color: #0000ff;
+        color: white;
+        padding: 15px;
+        
+        
+}       
+
+
+
+nav {
+        grid-row: 2/3 ;
+        grid-column: 1/2 ;
+        text-align: center;
+        align-self: start;
+        background-color: #7979ff;
+        color: white;
+        height: 150px;
+        margin-left: 20px;
+        margin-right: 10px;
+        border-radius: 10px;
+ } 
+
+main {
+        grid-row: 2/3 ;
+        grid-column: 2/3 ;
+        background-color: #0000ff;
+        color: white;
+        border-radius: 10px;
+        padding: 15px;
+        margin-right: 30px;
+        
+ } 
+
+footer {
+        grid-row: 3/4 ;
+        grid-column: 1/3 ;
+        background-color: #0000ff;
+        color: white;
+        padding: 30px;
+ } 
+
+ ul {
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+ }
+
+ ul li {
+        float: left;
+ }
+
+ li a {
+        padding: 8px;
+        text-decoration: none;
+        color: white;
+        display: block;
+        width: 50px;
+        line-height: 1.5;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+
+ li a:hover {
+
+        color: blue;
+ }
+
+ 
+        
+div div.column {
+
+       float: left;
+       width: 31%;
+       padding: 5px;
+ }
+
+div div.rows::after {
+
+       content: "";
+       clear: both;
+       display: table;
+ }
+
+
+
+
+.socials {
+
+       text-align: center;
+       margin: 0 10px;
+       
+
+}
+
+
+header p {
+
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: bold;
+       font-size: 50px;
+       line-height: 50px;
+       margin: 0;
+       
+}
+
+main p {
+       max-width: 600px;
+       margin: 0 auto;
+       margin-top: 15px;
+       text-align: left;
+       line-height: 1.5;
+       font-size: 20px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.block2 p {
+       margin-top: 50px;
+}
+
+.block2 li {
+       max-width: 600px;
+       margin: 0 auto;
+       text-align: left;
+       list-style: none;
+       line-height: 1.5;
+       font-size: 20px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
